@@ -72,6 +72,8 @@ default-extensions: [
 
 library:
   source-dirs: src
+  dependencies:
+    serialport
 
 executables:
   ardener-wifi-exe:
