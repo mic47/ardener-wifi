@@ -73,7 +73,15 @@ default-extensions: [
 library:
   source-dirs: src
   dependencies:
-    serialport
+    - exceptions
+    - extra
+    - lifted-base
+    - monad-control
+    - monad-loops
+    - process
+    - serialport
+    - transformers
+    - transformers-base
 
 executables:
   ardener-wifi-exe:
@@ -85,6 +93,12 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - ardener-wifi
+    - extra
+    - filepath
+    - optparse-applicative
+    - process
+    - serialport
+    - unordered-containers
 
 tests:
   ardener-wifi-test:

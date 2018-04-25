@@ -20,3 +20,4 @@ ardener-wifi.cabal
 *~
 cabal.project.local
 .HTF/
+*.sw[po]
