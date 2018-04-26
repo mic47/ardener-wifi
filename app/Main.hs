@@ -87,7 +87,7 @@ parseOptions = execParser
   )
 
 binariesPrefix :: FilePath
-binariesPrefix = "ESP8266_NONOS_SDK/bin"
+binariesPrefix = "../ESP8266_NONOS_SDK/bin"
 
 main :: IO ()
 main = do
